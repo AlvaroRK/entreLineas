@@ -1,8 +1,11 @@
 import React from 'react'
+import BookStore from '../components/books/BookStore'
 
 const Catalog = () => {
   return (
-    <div>Catalog</div>
+    <div>
+      <BookStore />
+    </div>
   )
 }
 
