@@ -19,12 +19,12 @@ const NavBar = () => {
   return (
     <nav className="navbar">
       <div className="container">
-        <h1 className="logo">MiApp</h1>
         {!isDesktop && (
           <button className="menu-button" onClick={() => setIsOpen(!isOpen)}>
             <span className={isOpen ? "icon close" : "icon"}></span>
           </button>
         )}
+        <h1 className="logo">Entre Lineas</h1>
         <ul className={`menu ${isOpen || isDesktop ? "open" : ""}`}>
           <Link className="listItem" to="/">
             <span>Home</span>

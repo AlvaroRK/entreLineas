@@ -1,17 +1,19 @@
-import React from 'react'
+import React from "react";
+import { useCart } from "../../context/CartContext";
+import "./bookCard.css";
 
-const BookCard = ({ book, onAddToCart }) => {
-  
+const BookCard = ({ book }) => {
+  const { addToCart } = useCart();
+
   return (
-    <div className='cardContainer'>
-        <div className='card'>
-            <h3>{book.title}</h3>
-            <p>{book.author}</p>
-            <p>{book.price}</p>
-            <button onClick={() => onAddToCart(book)}>Add to cart</button>
-        </div>
+    <div className="card">
+      <img src={book.image} alt="Book cover" />
+      <h3>{book.title}</h3>
+      <p>{book.author}</p>
+      <p>${book.price}</p>
+      <button onClick={() => addToCart(book)}>Add to cart</button>
     </div>
-  )
-}
+  );
+};
 
-export default BookCard
+export default BookCard;
