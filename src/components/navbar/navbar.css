@@ -24,7 +24,7 @@
   cursor: pointer;
   display: block;
   position: relative;
-  width: 30px;
+  width: 50px;
   height: 24px;
 }
 
@@ -123,6 +123,11 @@
     position: static;
     width: auto;
     max-height: none;
+  }
+
+  .cart{
+    position: absolute;
+    right: 3rem;
   }
 
   .listItem {

@@ -1,0 +1,83 @@
+.loginContainer {
+    width: 90%;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #FFFFFF; /* Fondo blanco */
+  box-shadow: 0 4px 8px #CCCCCC; /* Sombra suave */
+  border-radius: 8px;
+  text-align: center;
+  }
+  
+  .logintitle {
+    font-size: 1.5rem;
+  color: #000000; /* Negro */
+  margin-bottom: 15px;
+  }
+  
+  .loginForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .loginInput {
+    width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  font-size: 1rem;
+  }
+  
+  .loginButton {
+    background-color: #007BFF; /* Azul eléctrico */
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+  }
+  
+  .loginButton:hover {
+    background-color: #0056b3; /* Azul más oscuro al pasar el mouse */
+  }
+  
+  /* Estilos para tablets */
+@media (min-width: 600px) {
+    .loginContainer {
+      padding: 30px;
+    }
+    .loginTitle {
+      font-size: 1.8rem;
+    }
+    .loginInput {
+      padding: 14px;
+      font-size: 1.1rem;
+    }
+    .loginButton {
+      padding: 14px;
+      font-size: 1.1rem;
+    }
+  }
+  
+  /* Estilos para escritorio */
+  @media (min-width: 1024px) {
+    .loginContainer {
+      max-width: 450px;
+      padding: 40px;
+    }
+    .loginTitle {
+      font-size: 2rem;
+    }
+    .loginInput {
+      padding: 16px;
+      font-size: 1.2rem;
+    }
+    .loginButton {
+      padding: 16px;
+      font-size: 1.2rem;
+    }
+  }
