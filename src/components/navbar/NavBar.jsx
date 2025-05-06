@@ -34,21 +34,21 @@ const NavBar = () => {
         <Link className="logo" to="/">Entre Lineas</Link>
         <ul className={`menu ${isOpen || isDesktop ? "open" : ""}`}>
           <Link className="listItem" to="/">
-            Home
+            Inicio
           </Link>
           <Link className="listItem" to="/catalog">
-            Catalog
+            Catálogo
           </Link>
           <Link className="listItem" to="/about">
-            About us
+            Nosotros
           </Link>
           {user ? (
             <button className="listItem" onClick={logout}>
-              Logout
+              Cerrar sesión
             </button>
           ) : (
             <Link className="listItem" to="/login">
-              Login
+              Iniciar sesión
             </Link>
           )}
         </ul>

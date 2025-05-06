@@ -13,7 +13,7 @@ const BookCard = ({ book }) => {
         <p>{book.author}</p>
         <p>${book.price}</p>
       </div>
-      <button onClick={() => addToCart(book)}>Add to cart</button>
+      <button onClick={() => addToCart(book)}>Añadir al carrito</button>
     </div>
   );
 };

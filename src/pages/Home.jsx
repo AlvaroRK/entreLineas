@@ -7,7 +7,7 @@ import BooksCarrousel from "../components/carrousel/BooksCarrousel";
 import { Link } from "react-router-dom";
 
 const Home = () => {
-  const librosDestacados = data.slice(2, 14);
+  const librosDestacados = data.slice(2, 10);
   return (
     <main className="homeContainer">
       <section className="homeBanner">

@@ -1,7 +1,5 @@
 .navbar {
-  background-color: #ffffff; /* Fondo Blanco */
   padding: 1rem;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
 .container {
@@ -76,7 +74,7 @@
   margin: 0;
   display: flex;
   flex-direction: column;
-  background-color: #ffffff; /* Fondo blanco */
+  background-color: #F5F5F5;
   position: absolute;
   top: 60px;
   left: 0;
@@ -84,7 +82,6 @@
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease-in-out;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
 .menu.open {
@@ -112,7 +109,7 @@
   transform: translateY(0);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .menu-button {
     display: none;
   }
@@ -131,9 +128,13 @@
   }
 
   .listItem {
+    background-color: #F5F5F5;
     opacity: 1;
     transform: none;
     padding: 0.5rem 1rem;
+    transition: all ease-in-out .2s;
+    border-radius: 12px;
+    margin: 0 .5rem;
   }
 
   .listItem:hover {

@@ -1,0 +1,39 @@
+.about-section {
+    background-color: #F5F5F5;
+    padding: 3rem 1.5rem;
+    color: #000000;
+  }
+  
+  .about-container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+    box-shadow: 0 2px 8px #CCCCCC;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    padding: 2rem;
+  }
+  
+  .about-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #007BFF;
+    text-align: center;
+  }
+  
+  .about-text {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+  }
+  
+  /* Responsive */
+  @media (min-width: 768px) {
+    .about-title {
+      font-size: 2.5rem;
+    }
+  
+    .about-text {
+      font-size: 1.1rem;
+    }
+  }
