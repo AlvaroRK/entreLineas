@@ -1,0 +1,14 @@
+.itemContainer{
+    display: flex;
+    flex-direction: column;
+}
+p{
+    font-weight: bold;
+    cursor: default;
+}
+span{
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(129, 129, 129);
+    cursor: default;
+}

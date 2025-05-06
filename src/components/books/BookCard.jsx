@@ -8,9 +8,11 @@ const BookCard = ({ book }) => {
   return (
     <div className="card">
       <img src={book.image} alt="Book cover" />
-      <h3>{book.title}</h3>
-      <p>{book.author}</p>
-      <p>${book.price}</p>
+      <div className="cardContent">
+        <h3>{book.title}</h3>
+        <p>{book.author}</p>
+        <p>${book.price}</p>
+      </div>
       <button onClick={() => addToCart(book)}>Add to cart</button>
     </div>
   );

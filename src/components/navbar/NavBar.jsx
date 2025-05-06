@@ -31,7 +31,7 @@ const NavBar = () => {
             <span className={isOpen ? "icon close" : "icon"}></span>
           </button>
         )}
-        <h1 className="logo">Entre Lineas</h1>
+        <Link className="logo" to="/">Entre Lineas</Link>
         <ul className={`menu ${isOpen || isDesktop ? "open" : ""}`}>
           <Link className="listItem" to="/">
             Home

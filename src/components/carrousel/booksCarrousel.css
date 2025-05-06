@@ -1,0 +1,37 @@
+.book-carousel {
+  padding: 1rem;
+}
+
+.book-card {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 1rem 0;
+  text-align: center;
+  height: min-content;
+}
+
+.book-img {
+  width: 75%;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #007bff;
+  width: 20px;
+}
+
+@media (min-width: 1024px) {
+  .book-carousel{
+    width: 90%;
+    margin: auto;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    color: #007bff;
+  }
+}
