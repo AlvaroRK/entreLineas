@@ -4,209 +4,209 @@
     "title": "Padre Rico, Padre Pobre",
     "author": "Robert T. Kiyosaki",
     "price": 25,
-    "image": "https://m.media-amazon.com/images/I/81BE7eeKzAL.jpg"
+    "image": "/padre.jpg"
   },
   {
     "id": 2,
     "title": "Los secretos de la mente millonaria",
     "author": "T. Harv Eker",
     "price": 20,
-    "image": "public/secretos.png"
+    "image": "/secretos.png"
   },
   {
     "id": 3,
     "title": "El hombre más rico de Babilonia",
     "author": "George S. Clason",
     "price": 15,
-    "image": "public/babilonia.png"
+    "image": "/babilonia.png"
   },
   {
     "id": 4,
     "title": "Piense y hágase rico",
     "author": "Napoleon Hill",
     "price": 18,
-    "image": "public/piense.png"
+    "image": "/piense.png"
   },
   {
     "id": 5,
     "title": "La transformación total de su dinero",
     "author": "Dave Ramsey",
     "price": 28,
-    "image": "public/transformacion.png"
+    "image": "/transformacion.png"
   },
   {
     "id": 6,
     "title": "Dinero: domina el juego",
     "author": "Tony Robbins",
     "price": 32,
-    "image": "public/domina.png"
+    "image": "/domina.png"
   },
   {
     "id": 7,
     "title": "La psicología del dinero",
     "author": "Morgan Housel",
     "price": 22,
-    "image": "public/psicologiadinero.png"
+    "image": "/psicologiadinero.png"
   },
   {
     "id": 8,
     "title": "El cuadrante del flujo de dinero",
     "author": "Robert T. Kiyosaki",
     "price": 23,
-    "image": "public/cuadrante.png"
+    "image": "/cuadrante.png"
   },
   {
     "id": 9,
     "title": "Tu dinero o tu vida",
     "author": "Vicki Robin",
     "price": 21,
-    "image": "public/tudinero.png"
+    "image": "/tudinero.png"
   },
   {
     "id": 10,
     "title": "El inversor inteligente",
     "author": "Benjamin Graham",
     "price": 35,
-    "image": "public/inteligente.png"
+    "image": "/inteligente.png"
   },
   {
     "id": 11,
     "title": "Hábitos atómicos",
     "author": "James Clear",
     "price": 27,
-    "image": "public/habitos.png"
+    "image": "/habitos.png"
   },
   {
     "id": 12,
     "title": "Los 7 hábitos de la gente altamente efectiva",
     "author": "Stephen R. Covey",
     "price": 30,
-    "image": "public/habitosefectivos.png"
+    "image": "/habitosefectivos.png"
   },
   {
     "id": 13,
     "title": "El poder del ahora",
     "author": "Eckhart Tolle",
     "price": 19,
-    "image": "public/poder.png"
+    "image": "/poder.png"
   },
   {
     "id": 14,
     "title": "Cómo ganar amigos e influir sobre las personas",
     "author": "Dale Carnegie",
     "price": 17,
-    "image": "public/influir.png"
+    "image": "/influir.png"
   },
   {
     "id": 15,
     "title": "La semana laboral de 4 horas",
     "author": "Tim Ferriss",
     "price": 26,
-    "image": "public/semana.png"
+    "image": "/semana.png"
   },
   {
     "id": 16,
     "title": "Despierta tu héroe interior",
     "author": "Victor Hugo Manzanilla",
     "price": 22,
-    "image": "public/heroe.png"
+    "image": "/heroe.png"
   },
   {
     "id": 17,
     "title": "El monje que vendió su Ferrari",
     "author": "Robin Sharma",
     "price": 20,
-    "image": "public/monjeferrari.png"
+    "image": "/monjeferrari.png"
   },
   {
     "id": 18,
     "title": "Poder sin límites",
     "author": "Tony Robbins",
     "price": 29,
-    "image": "public/sinlimites.png"
+    "image": "/sinlimites.png"
   },
   {
     "id": 19,
     "title": "Más agudo, más rápido y mejor",
     "author": "Charles Duhigg",
     "price": 25,
-    "image": "public/agudo.png"
+    "image": "/agudo.png"
   },
   {
     "id": 20,
     "title": "Piensa como un monje",
     "author": "Jay Shetty",
     "price": 24,
-    "image": "public/piensamonje.png"
+    "image": "/piensamonje.png"
   },
   {
     "id": 21,
     "title": "La regla de oro de los negocios",
     "author": "Grant Cardone",
     "price": 26,
-    "image": "public/regladeoro.png"
+    "image": "/regladeoro.png"
   },
   {
     "id": 22,
     "title": "El código del dinero",
     "author": "Raimon Samsó",
     "price": 23,
-    "image": "public/codigo.png"
+    "image": "/codigo.png"
   },
   {
     "id": 23,
     "title": "Money: A Love Story",
     "author": "Kate Northrup",
     "price": 21,
-    "image": "public/love.png"
+    "image": "/love.png"
   },
   {
     "id": 24,
     "title": "Vendes o vendes",
     "author": "Grant Cardone",
     "price": 24,
-    "image": "public/vendes.png"
+    "image": "/vendes.png"
   },
   {
     "id": 25,
     "title": "The Millionaire Fastlane",
     "author": "MJ DeMarco",
     "price": 30,
-    "image": "public/millonario.png"
+    "image": "/millonario.png"
   },
   {
     "id": 26,
     "title": "Think Straight",
     "author": "Darius Foroux",
     "price": 17,
-    "image": "public/think.png"
+    "image": "/think.png"
   },
   {
     "id": 27,
     "title": "Your Next Five Moves",
     "author": "Patrick Bet-David",
     "price": 26,
-    "image": "public/nextfive.png"
+    "image": "/nextfive.png"
   },
   {
     "id": 28,
     "title": "Deep Work",
     "author": "Cal Newport",
     "price": 25,
-    "image": "public/deep.png"
+    "image": "/deep.png"
   },
   {
     "id": 29,
     "title": "Grit",
     "author": "Angela Duckworth",
     "price": 22,
-    "image": "public/grit.png"
+    "image": "/grit.png"
   },
   {
     "id": 30,
     "title": "So Good They Can't Ignore You",
     "author": "Cal Newport",
     "price": 23,
-    "image": "public/ignore.png"
+    "image": "/ignore.png"
   }
 ]
